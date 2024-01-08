@@ -1,0 +1,22 @@
+body {
+    background: black;
+}
+.header {
+    text-align: center;
+}
+
+.mid {
+    text-align: center;
+    color: orange;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+}
+
+.form {
+    text-align: center;
+}

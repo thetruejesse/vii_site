@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+<body>
+    <img src="Screenshot_20240107-064709_Adobe Acrobat.jpg" alt="viiLogo" width="300px" height="300px">
+    <h1>Create Your Profile Here</h1>
+    <form action="./home.html" method="post" class="form">
+        <label for="fName">First Name</label>
+        <input type="text" name="fName" required><br>
+
+        <label for="lName">Last Name</label>
+        <input type="text" name="lName" required><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" required><br>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" min="8" max="13" required><br>
+
+        <label for="nPassword">Confirm Password</label>
+        <input type="password" name="nPassword" id="nPassword" required min="8" max="13"><br>
+
+        <label for="singlePlayer">singlePlayer
+            <input type="radio" name="singlePlayer" id="singlePlayer">
+        </label><br>
+        <label for="multiPlayer">multiPlayer
+            <input type="radio" name="multiPlayer" id="multiPlayer">            
+        </label><br>
+        <button type="submit">Signup</button>
+    </form>
+</body>
+</html>
